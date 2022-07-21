@@ -1,9 +1,11 @@
-import Form from "./components/Form";
-import Doc from "./components/Doc";
+import React from 'react';
+import Post from './components/Post';
+import './App.css';
+
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Post />
     </div>
   );
 }
